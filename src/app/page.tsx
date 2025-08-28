@@ -15,7 +15,7 @@ export default function HomePage() {
   return (
     <div className="container mx-auto px-4 py-8">
       {/* Welcome Section */}
-      <section className="text-center bg-blue-100 p-8 rounded-lg mb-12 shadow-md">
+      <section className="text-center bg-blue-100 p-8 rounded-2xl mb-10 shadow-lg">
         <h1 className="text-4xl font-extrabold text-gray-800 mb-2">
           Welcome to the Amana Bookstore!
         </h1>

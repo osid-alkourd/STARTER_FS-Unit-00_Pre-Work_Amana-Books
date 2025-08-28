@@ -18,7 +18,7 @@ const BookGrid: React.FC<BookGridProps> = ({ books, onAddToCart }) => {
   const [sortBy, setSortBy] = useState('title');
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc');
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage, setItemsPerPage] = useState(8);
+  const [itemsPerPage, setItemsPerPage] = useState(12);
   const [featuredCarouselIndex, setFeaturedCarouselIndex] = useState(0);
 
   // Memoize featured books to prevent re-calculation on every render

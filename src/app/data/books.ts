@@ -874,5 +874,25 @@ export const books: Book[] = [
     reviewCount: 16,
     inStock: true,
     featured: true,
+  },
+
+   {
+    id: '46',
+    title: 'Gaza 2025',
+    author: 'Osid Alkourd',
+    description: 'This book talk about the life inside Gaza during the war and exactly at 2025',
+    price: 50.95,
+    image: '/images/book3.jpg',
+    isbn: '978-4567890555',
+    genre: ['History', 'Culture'],
+    tags: ['Palestine', 'Egypt', 'Nablis'],
+    datePublished: '2025-08-20',
+    pages: 300,
+    language: 'Arabic',
+    publisher: 'Ahmed Ali',
+    rating: 4.3,
+    reviewCount: 12,
+    inStock: true,
+    featured: true,
   }
 ];

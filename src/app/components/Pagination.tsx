@@ -132,23 +132,23 @@ const Pagination: React.FC<PaginationProps> = ({
       </div>
 
       {/* Items per page selector */}
-      <div className="flex items-center space-x-2 text-sm text-gray-600">
-        <span>Items per page:</span>
-        <select
-          value={itemsPerPage}
-          onChange={(e) => {
-            // Reset to page 1 when changing items per page
-            onPageChange(1);
-            // The parent component should handle the itemsPerPage change
-          }}
-          className="px-2 py-1 border border-gray-300 rounded text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
-        >
-          <option value={8}>8</option>
-          <option value={12}>12</option>
-          <option value={16}>16</option>
-          <option value={24}>24</option>
-        </select>
-      </div>
+        <div className="flex items-center space-x-2 text-sm text-gray-600">
+          <span>Items per page:</span>
+          <select
+            value={itemsPerPage}
+            onChange={(e) => {
+              // Reset to page 1 when changing items per page
+              onPageChange(1);
+              // The parent component should handle the itemsPerPage change
+            }}
+            className="px-2 py-1 border border-gray-300 rounded text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+            <option value={8}>8</option>
+            <option value={12}>12</option>
+            <option value={16}>16</option>
+            <option value={24}>24</option>
+          </select>
+        </div>
     </div>
   );
 };
